@@ -46,6 +46,7 @@ namespace Fifteen
                     else
                     {
                         playingField = new int[side, side];
+                        currentLocation = new Location[values.Length];
                         for (int i = 0; i < side; i++)
                             for (int j = 0; j < side; j++)
                             {

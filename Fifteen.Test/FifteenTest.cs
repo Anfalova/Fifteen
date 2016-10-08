@@ -4,7 +4,7 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 namespace Fifteen.Test
 {
     [TestClass]
-    public class UnitTest1
+    public class FifteenTest
     {
         [TestMethod]
         [ExpectedException(typeof(ArgumentException), "Too few arguments.")]
